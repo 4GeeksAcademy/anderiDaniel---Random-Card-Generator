@@ -1,1 +1,62 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  height: 100%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/img/9999520.jpg);
+  /* background-color: green; */
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.card.main {
+  border: none;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1.card.number {
+  border: 0;
+  text-align: center;
+  font-size: 6vw;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1.card.suit.top,
+h1.card.suit.bottom {
+  border: 0;
+  font-size: 4vw;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+h1.card.suit.bottom {
+  transform: rotate(180deg);
+}
+
+.button {
+  background-color: #c436bf;
+  color: white;
+  padding: 10px 20px;
+  border: black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#heightInput,
+#widthInput {
+  width: 120px;
+}
+#contador {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(52, 123, 143);
+  margin-top: 15px;
+}
